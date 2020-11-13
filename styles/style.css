@@ -459,13 +459,10 @@ picture img {
 }
 #ourWork .filter-box .each-box-text a {
   display: inline-block;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s ease-in;
 }
 #ourWork .filter-box .each-box-text a i {
   color: #fff;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s ease-in;
+
   position: relative;
   left: -15px;
   font-size: 28px;
@@ -475,7 +472,6 @@ picture img {
   color: #19af83;
 }
 #ourWork .filter-box .each-box:hover .each-box-text a i {
-  -webkit-transition: 0.25s all;
   left: 0;
   opacity: 1;
   transition: 0.25s all;
