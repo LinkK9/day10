@@ -428,6 +428,10 @@ picture img {
   position: relative;
 }
 
+.each-box-img img{
+  width: 100%;
+}
+
 .each-box-text-wap {
   position: absolute;
   top: 50%;
@@ -437,6 +441,7 @@ picture img {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
+  overflow: hidden;
 }
 
 #ourWork .filter-box .each-box .each-box-text {
